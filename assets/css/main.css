@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #f0f4f4;
+		background: #383838;
 		color: #5b5b5b;
 		font-size: 15pt;
 		line-height: 1.85em;
@@ -175,7 +175,7 @@ input, select, textarea {
 	}
 
 	blockquote {
-		border-left: solid 0.5em #ddd;
+		border-left: solid 0.5em rgb(58, 58, 58);
 		padding: 1em 0 1em 2em;
 		font-style: italic;
 	}
@@ -2163,7 +2163,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		background: #fff;
+		background: rgb(65, 65, 65);
 		margin: 0 0 2em 0;
 		padding: 6em 0 6em 0;
 	}
@@ -2408,7 +2408,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #fff;
+		background: rgb(66, 66, 66);
 		text-align: center;
 		padding: 4.5em 0 4.5em 0;
 		margin-bottom: 0;
@@ -2590,7 +2590,7 @@ input, select, textarea {
 		.carousel article {
 			display: inline-block;
 			width: 18em;
-			background: #fff;
+			background: rgb(100, 100, 100);
 			text-align: center;
 			padding: 0 1em 3em 1em;
 			margin: 0 2em 0 0;
