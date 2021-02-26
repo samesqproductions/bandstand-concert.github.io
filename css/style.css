@@ -227,7 +227,7 @@ color: white;}
   transition: all 0.3s;
   width: 113px;
   display: block;
-  background-color: rgb(238, 52, 20);
+  ;
 }
 .opacity-nav {
   opacity: 0.8;
@@ -524,7 +524,7 @@ p {
 }
 @media only screen and (max-width: 600px) {
   #home {
-      background: url('../images/workworkwork.png');
+      background: url('../images/qwfaws.png');
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -588,6 +588,7 @@ p {
   animation-delay: 0s;
   animation-iteration-count: infinite;
   animation-play-state: running;
+
 }
 .mouse-icon .scroll {
   position: relative;
