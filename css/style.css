@@ -524,7 +524,7 @@ p {
 }
 @media only screen and (max-width: 600px) {
   #home {
-      background: url('../images/qwfaws.png');
+      background: url('../images/phonebgbg.png');
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
