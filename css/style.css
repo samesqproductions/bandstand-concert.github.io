@@ -331,7 +331,7 @@ color: white;}
   height: 100%;
   right: 0;
   float: right;
-  background: #2f2f2f;
+  background: #cf5f5f;
   padding: 2.5em 1.5em 0;
   -webkit-transform: translate3d(300px, 0, 0);
   transform: translate3d(300px, 0, 0);
@@ -354,10 +354,10 @@ color: white;}
   padding: 1.5em 0;
   -webkit-transform: translate3d(0, 500px, 0);
   transform: translate3d(0, 500px, 0);
-  color: #e77c7c;
+  color: #fff2f2;
   position: relative;
 }
-.menu-list a:hover, .menu-list a:active span {color: #ff4242;}
+.menu-list a:hover, .menu-list a:active span {color: #a7a7a7;}
 .menu-list,
 .menu-list a {
   -webkit-transition: -webkit-transform 0s 0.4s;
