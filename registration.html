@@ -1125,6 +1125,16 @@
     
 
     <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
     <script src="js/validation.js"></script>
     <script src="js/jquery.appear.js" type="text/javascript"></script>
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
