@@ -25,6 +25,9 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
     <link rel='stylesheet' href='https:////netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'><link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <style>
       body {
         margin: 0;
@@ -97,53 +100,75 @@
     </div>
     <!--/.PRELOADER END-->
 
-    <!--HEADER -->
     <div class="topnav" id="myTopnav">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="events.html">Previous Events</a>
-      <a href="gallery.html">Gallery</a>
+      <a href="gallery.html" class="active">Gallery</a>
       <a href="registration.html">Registraion</a>
-      <a href="contactus.html" class="active">Contact</a>
+      <a href="contactus.html">Contact</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>
     </div>
-
-        <!--CONTACT-->
-        <section id="contact" class="white-bg" style="background-image: url(images/music10\ \(1\).jpg); background-size: cover;">
+    
+    <!--CONTENT WRAP-->
+  
+        <!--TESTIMONIAL-->
+        <section id="testimonial">
           <div class="container">
-            <div class="row">
-              <div class="col-md-3">
-                <h3 class="title-small">
-                  <span>Contact Us</span>
-                </h3>
-                <p class="content-detail">
-                  <!--Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.-->
-                </p>
+            <div class="container">
+              <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                  <li data-target="#myCarousel" data-slide-to="3"></li>
+                  <li data-target="#myCarousel" data-slide-to="4"></li>
+                </ol>
+            
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" style="padding-top: 3%;">
+                  <div class="item active">
+                    <img src="images/carousel/1.1.jpg" alt="1" style="width: 100%;">
+                  </div>
+            
+                  <div class="item">
+                    <img src="images/carousel/2.jpeg" alt="2" style="width: 100%;">
+                  </div>
+                
+                  <div class="item">
+                    <img src="images/carousel/3.1.jpg" alt="3" style="width: 100%;">
+                  </div>
 
+                <div class="item">
+                  <img src="images/carousel/4.jpeg" alt="3" style="width: 100%;">
               </div>
-              <div class="col-md-9 content-right">
-                <form action="mailto:info@bandstand.com" method="POST" enctype="text/plain">
-                  <div class="group">
-                    <input required="" type="text"><span class="highlight"></span><span class="bar"></span><label>Name</label>
-                  </div>
-                  <div class="group">
-                    <input required="" type="email"><span class="highlight"></span><span class="bar"></span><label>Email</label>
-                  </div>
-                  <div class="group">
-                    <textarea required=""></textarea><span class="highlight"></span><span class="bar"></span><label>Message</label>
-                  </div>
-                  <input id="sendMessage" name="sendMessage" type="submit" value="Send Message">
-                </form>
+              <div class="item">
+                <img src="images/carousel/5.1.jpg" alt="3" style="width: 100%;">
               </div>
             </div>
+            
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+            
+            </div>
           </div>
+          <div class="mask-testimonial"></div>
         </section>
-        <!--/.CONTACT END-->
+        <!--/.TESTMONIAL END-->
         
-        <!--FOOTER-->
-        <footer>
+        <footer style="background-color: #333;">
           <div class="footer-bottom">
             <div class="container">
               <div class="row">
@@ -153,7 +178,7 @@
           </div>
         
         </footer>
-        <footer>
+        <footer style="background-color: #333;">
           <div class="wrapper">
           <ul class="social-icons icon-circle icon-zoom list-unstyled list-inline"> 
 
@@ -166,7 +191,7 @@
           </ul>
         </div>
         </footer>
-        <footer style="text-align: center; color: #f5f5f5;">&copy; Copyright Samsesq Productions</footer>
+        <footer style="text-align: center; color: #f5f5f5; background-color: #333;">&copy; Copyright Samsesq Productions</footer>
 
         <!--/.FOOTER-END-->
 

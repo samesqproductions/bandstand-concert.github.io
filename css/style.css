@@ -1034,7 +1034,7 @@ ul.portfolio-image li .desc{
   width: 100%;
 }
 .bg-about {
-  background: url('../images/first2.png');
+  background: url('../images/first.jpeg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1053,7 +1053,7 @@ ul.portfolio-image li .desc{
   width: 100%;
   position: relative;
   display: block;
-  min-height: 480px;
+  min-height:632px;
 }
 .wrap-about .w-content{
   position: absolute;
@@ -1439,8 +1439,8 @@ ul.portfolio-image li .desc{
 }
 hr{
 	margin: 30px 20px;
-	border-top:2px solid #1C1E26 ;
-	border-bottom:2px solid #38404D;
+	border-top:2px solid #b8b8b8 ;
+	border-bottom:2px solid #919191;
 }
 .list-unstyled {
 	padding-left: 0;
@@ -1605,6 +1605,7 @@ hr{
       color: #333;
       text-shadow: 1px 1px 1px #ccc;
     }
+
     
     .nav-bar .nav-button-home a { background:url("https://www.cheesetoast.co.uk/cheesepress/wp-content/uploads/2012/08/home.gif") no-repeat 0px -2px transparent; }
     
