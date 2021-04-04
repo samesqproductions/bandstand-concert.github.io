@@ -895,7 +895,7 @@ ul.portfolio-image li .desc{
 }
 /*---------- d. testimonial -----------*/
 #testimonial {
-  background-image: url(../images/mount.jpg);
+  background-color: #2e2e2e;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -909,7 +909,7 @@ ul.portfolio-image li .desc{
 }
 @media screen and (max-width: 600px) {
   #testimonial {
-    background-image: url(../images/mount.jpg);
+    background-color: #2e2e2e;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
