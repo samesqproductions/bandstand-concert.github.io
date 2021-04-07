@@ -83,6 +83,20 @@
           text-align: left;
         }
       }
+      
+      </style>
+      <style>
+        .workplox {
+    background-color: #1d1d1d; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+}
       </style>
     
     
@@ -126,17 +140,18 @@
 
               </div>
               <div class="col-md-9 content-right">
-                <form action="mailto:info@bandstand.com" method="POST" enctype="text/plain">
-                  <div class="group">
-                    <input required="" type="text"><span class="highlight"></span><span class="bar"></span><label>Name</label>
-                  </div>
-                  <div class="group">
-                    <input required="" type="email"><span class="highlight"></span><span class="bar"></span><label>Email</label>
-                  </div>
-                  <div class="group">
-                    <textarea required=""></textarea><span class="highlight"></span><span class="bar"></span><label>Message</label>
-                  </div>
-                  <input id="sendMessage" name="sendMessage" type="submit" value="Send Message">
+                <form action="mailto:randykethcena@gmail.com"
+                method="POST"
+                enctype="multipart/form-data"
+                name="EmailForm" style="color: white;">
+                    Name:<br>
+                    <input type="text" size="19" name="Contact-Name"><br><br>
+                    Email:<br>
+                    <input type="email" name="Contact-Email"><br><br> 
+                    Message:<br> 
+                    <textarea name="Contact-Message" rows="4" cols="20">
+                    </textarea><br><br> 
+                    <button type="submit" value="Submit" class="workplox">Send</button>
                 </form>
               </div>
             </div>
@@ -148,7 +163,7 @@
         <style>
           .imagefooter {
             padding-top: 50px;
-            width: 5%;
+            width: 10%;
           }
           @media only screen and (max-width: 600px) {
             .imagefooter {
@@ -160,7 +175,7 @@
           @media only screen and (min-width: 768px){
             .imagefooterright {
             float: right;
-            width: 10%;
+            width: 30%;
           }
           }
           
