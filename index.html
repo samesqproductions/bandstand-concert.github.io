@@ -150,22 +150,22 @@
             <div id="countdown">
               <ul>
                 <li style="display: inline-block;
-                font-size: 1.5em;
+                font-size: 1em;
                 list-style-type: none;
                 padding: 1em;
                 text-transform: uppercase; background-color: rgba(49, 49, 49, 0.466);"><span id="days"></span>days</li>
                 <li style="display: inline-block;
-                font-size: 1.5em;
+                font-size: 1em;
                 list-style-type: none;
                 padding: 1em;
                 text-transform: uppercase; background-color: rgba(49, 49, 49, 0.466);"><span id="hours"></span>Hours</li>
                 <li style="display: inline-block;
-                font-size: 1.5em;
+                font-size: 1em;
                 list-style-type: none;
                 padding: 1em;
                 text-transform: uppercase; background-color: rgba(49, 49, 49, 0.466);"><span id="minutes"></span>Minutes</li>
                 <li style="display: inline-block;
-                font-size: 1.5em;
+                font-size: 1em;
                 list-style-type: none;
                 padding: 1em;
                 text-transform: uppercase; background-color: rgba(49, 49, 49, 0.466);"><span id="seconds"></span>Seconds</li>
@@ -189,20 +189,21 @@
         </section>
         <style>
           .imagefooter {
-            padding-top: 50px;
-            width: 10%;
+            padding-top: 30px;
+            padding-left: 30px;
+            width: 7%;
           }
           @media only screen and (max-width: 600px) {
             .imagefooter {
               float: left;
-              padding-top: 35px;
-              width: 16%;
+              
+              width: 23%;
             }
           }
           @media only screen and (min-width: 768px) {
             .imagefooterright {
               float: right;
-              width: 30%;
+              width: 17%;
             }
           }
           @media only screen and (max-width: 600px) {
@@ -211,12 +212,26 @@
               width: 50%;
             }
           }
+          .footerp {
+            padding-left: 720px;
+            font-size: 78px;
+            color: white;
+          }
+          @media only screen and (max-width: 600px) {
+            .footerp {
+            padding-top: 10px;
+            padding-left: 120px;
+            font-size: 30px;
+            color: white;
+          }
+          }
+
         </style>
 
         <footer>
           <div class="footer-bottom" style="background-color: black">
-            <div class="container">
-              <div class="row" style="background-color: black">
+            
+              
                 <a href="https://www.facebook.com/smarttrendzz/" target="_blank"
                   ><img
                     src="images/Smart-Trendzz-1 (1).webp"
@@ -227,9 +242,38 @@
                   src="images/sm.webp"
                   alt="Samesq"
                   class="imagefooterright"
-                />
+                />       
+                     
+          </div>
+        </footer>
+        <footer>
+          <div style="background-color: black;">
+              <div style="background-color: black">
+                <p class="footerp">Our Clients</p>
+                <img
+                  src="images/sponsor/bisleri.webp"
+                  alt="Samesq" style="padding-bottom: 0px; width: auto; text-align: center; margin-right: 100px;"/>
+                  <img
+                  src="images/sponsor/htc.webp"
+                  alt="Samesq" style="padding-top: 0px; margin-right: 100px;"/>
+                  <img
+                  src="images/sponsor/kingfisher.webp"
+                  alt="Samesq" style="padding-top: 0px; align-content: center; margin-left: 100px;"/>
+                  <img
+                  src="images/sponsor/coke.webp"
+                  alt="Samesq" style="padding-top: 0px; align-content: center; margin-left: 10px; margin-top: 20px;"/>
+                  <img
+                  src="images/sponsor/prime.webp"
+                  alt="Samesq" style="padding-top: 0px; align-content: center;"/>
+                  <img
+                  src="images/sponsor/indigo.jpeg"
+                  alt="Samesq" style="padding-top: 0px; width: 400px; margin-left: 10px;"/>
+                  <img
+                  src="images/sponsor/pthingy.webp"
+                  alt="Samesq" style="padding-top: 0px; width: 400px; margin-left: 10px;"/>
+                
               </div>
-            </div>
+            
           </div>
         </footer>
         <footer style="background-color: rgb(0, 0, 0)">
@@ -284,7 +328,7 @@
       }
     </script>
     <script>
-      var countDownDate = new Date("Jan 5, 2022 15:37:25").getTime();
+      var countDownDate = new Date("May 25, 2021 00:00:00").getTime();
       var x = setInterval(function () {
         var now = new Date().getTime();
         var distance = countDownDate - now;
