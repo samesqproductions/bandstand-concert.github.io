@@ -7,28 +7,58 @@
   color: rgb(255, 255, 255);
   margin: 0 auto;
   text-align: center;
-  padding-top: 350px;
+  padding-top: 0px;
   
+}
+}
+
+h1 {
+font-weight: normal;
+letter-spacing: .5rem;
+text-transform: uppercase;
+}
+
+li1 {
+display: inline-block;
+font-size: 1.2em;
+list-style-type: none;
+padding: 1em;
+text-transform: uppercase;
+}
+
+li span {
+display: block;
+font-size: 1.7rem;
+}
+
+.message {
+font-size: 4rem;
+display: none;
+padding: 1rem;
+}
+
+.emoji {
+padding: 0 .25rem;
 }
 @media all and (max-width: 768px) {
   .container2 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin: 0 auto;
     text-align: center;
-    padding-top: 350px;
+    padding-top: 0px;
     
   }
 }
 
 h1 {
   font-weight: normal;
-  letter-spacing: .125rem;
+  letter-spacing: .025rem;
   text-transform: uppercase;
 }
 
 li1 {
   display: inline-block;
-  font-size: 1.5em;
+  font-size: 1.2em;
   list-style-type: none;
   padding: 1em;
   text-transform: uppercase;
@@ -36,7 +66,7 @@ li1 {
 
 li span {
   display: block;
-  font-size: 4.5rem;
+  font-size: 1.7rem;
 }
 
 .message {
@@ -50,16 +80,41 @@ li span {
 }
 
 @media all and (max-width: 768px) {
-  h1 {
-    font-size: 1.0rem;
+  .container2 {
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 0px;
+    
   }
-  
-  li {
-    font-size: 2rem;
-    padding: .5rem;
-  }
-  
-  li span {
-    font-size: 3.375rem;
-  }
+}
+
+h1 {
+  font-weight: normal;
+  letter-spacing: .5rem;
+  text-transform: uppercase;
+}
+
+li1 {
+  display: inline-block;
+  font-size: 1.2em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 1.7rem;
+}
+
+.message {
+  font-size: 4rem;
+  display: none;
+  padding: .5rem;
+}
+
+.emoji {
+  padding: 0 .25rem;
+}
 }

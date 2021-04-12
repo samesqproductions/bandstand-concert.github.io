@@ -16,6 +16,38 @@
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/responsive.css" rel="stylesheet" />
     <link rel="stylesheet" href="./style.css" />
+    <style>
+      @media only screen and (min-width: 1000px) {
+        .blink {
+          float: right;
+        }
+      }
+      @-webkit-keyframes blinker {
+  from {opacity: 1.0;}
+  to {opacity: 0.0;}
+}
+.blink{
+	text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-in-out;
+	-webkit-animation-direction: alternate;
+  margin-left: 1550px;
+  position: absolute;
+}
+@media only screen and (max-width: 1000px) {
+  .blink{
+	text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-in-out;
+	-webkit-animation-direction: alternate;
+  margin-left: 0px;
+}
+}
+    </style>
     <link
       href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700"
       rel="stylesheet"
@@ -137,40 +169,47 @@
       <a href="gallery.html">Gallery</a>
       
       <a href="contactus.html">Contact</a>
-      <a href="registration.html" style="float: right; color: red;">Registration</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>
+      
+      <div class="container2" style="padding-right: 40px;">
+        <h1 id="headline"></h1>
+        <div id="countdown" style="float: right;">
+          <ul>
+            <li style="display: inline-block;
+            font-size: 0.8em;
+            list-style-type: none;
+            padding: 0em;
+             ;"><span id="days"></span>Days</li>
+            <li style="display: inline-block;
+            font-size: 0.8em;
+            list-style-type: none;
+            padding: 0em;
+             ;"><span id="hours"></span>Hrs</li>
+            <li style="display: inline-block;
+            font-size: 0.8em;
+            list-style-type: none;
+            padding: 0em;
+             ;"><span id="minutes"></span>Mins</li>
+            <li style="display: inline-block;
+            font-size: 0.8em;
+            list-style-type: none;
+            padding: 0em;
+             ;"><span id="seconds"></span>Secs</li>
+          </ul>
+        </div>
+      </div>
+      <style>
+      </style>
+      <a href="registration.html" style="float: auto; color: red;" class="blink">Registration</a>
+
     </div>
     <div class="content-wrap">
       <div class="content">
         <section id="home">
-          <div class="container2">
-            <h1 id="headline"></h1>
-            <div id="countdown">
-              <ul>
-                <li style="display: inline-block;
-                font-size: 1em;
-                list-style-type: none;
-                padding: 1em;
-                text-transform: uppercase; ;"><span id="days"></span>days</li>
-                <li style="display: inline-block;
-                font-size: 1em;
-                list-style-type: none;
-                padding: 1em;
-                text-transform: uppercase; ;"><span id="hours"></span>Hours</li>
-                <li style="display: inline-block;
-                font-size: 1em;
-                list-style-type: none;
-                padding: 1em;
-                text-transform: uppercase; ;"><span id="minutes"></span>Minutes</li>
-                <li style="display: inline-block;
-                font-size: 1em;
-                list-style-type: none;
-                padding: 1em;
-                text-transform: uppercase; ;"><span id="seconds"></span>Seconds</li>
-              </ul>
-            </div>
+          <div class="container">
+            
             <div class="message">
               <div id="content">
                
