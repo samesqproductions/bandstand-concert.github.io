@@ -33,9 +33,22 @@
 	-webkit-animation-iteration-count:infinite;
 	-webkit-animation-timing-function:ease-in-out;
 	-webkit-animation-direction: alternate;
-  margin-left: 1500px;
+  margin-left: 78%;
   position: absolute;
 }
+@media  screen and (max-width: 1400px) {
+  .blink{
+	text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-in-out;
+	-webkit-animation-direction: alternate;
+  margin-left: 72%;
+  position: absolute;
+}
+}
+
 @media only screen and (max-width: 1000px) {
   .blink{
 	text-decoration: blink;
@@ -46,6 +59,7 @@
 	-webkit-animation-direction: alternate;
   margin-left: 0px;
 }
+
 }
     </style>
     <link
@@ -232,7 +246,7 @@
             padding-left: 30px;
             width: 7%;
           }
-          @media only screen and (max-width: 600px) {
+          @media only screen and (max-width: 768px) {
             .imagefooter {
               float: left;
               
@@ -245,7 +259,7 @@
               width: 8%;
             }
           }
-          @media only screen and (max-width: 600px) {
+          @media only screen and (max-width: 768px) {
             .imagefooterright {
               float: right;
               width: 25%;
@@ -256,7 +270,7 @@
             font-size: 78px;
             color: white;
           }
-          @media only screen and (max-width: 600px) {
+          @media only screen and (max-width: 768px) {
             .footerp {
             padding-top: 10px;
             padding-left: 120px;
@@ -264,10 +278,25 @@
             color: white;
           }
         }
-        @media only screen and (min-width: 1000px) {
+        @media  screen and (max-width: 1400px) {
+          .footerp {
+            padding-top: 10px;
+            padding-left: 39%;
+            font-size: 60px;
+            color: white;
+          }
+        }
+        @media only screen and (min-width: 768px) {
           .imgspn{
             width: 65%;
-            padding-left: 690px;
+            padding-left: 35%;
+            padding-top: 40px;
+          }
+        }
+        @media  screen and (max-width: 1366px) {
+          .imgspn{
+            width: 65%;
+            padding-left: 35%;
             padding-top: 40px;
           }
         }
@@ -275,7 +304,7 @@
 
         </style>
         <style>
-          @media only screen and (max-width:1000px) {
+          @media only screen and (max-width:768px) {
             .footer-bottom{
               position: relative;
               padding-top: 0px;
