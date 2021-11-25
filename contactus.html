@@ -27,6 +27,55 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
     <link rel='stylesheet' href='https:////netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'><link rel="stylesheet" href="./style.css">
     <style>
+      @media only screen and (min-width: 1000px) {
+        .blink {
+          float: right;
+        }
+      }
+      @-webkit-keyframes blinker {
+  from {opacity: 1.0;}
+  to {opacity: 0.0;}
+}
+.blink{
+	text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-in-out;
+	-webkit-animation-direction: alternate;
+  margin-left: 88%;
+  margin-top: 0%;
+  position: absolute;
+}
+@media  screen and (max-width: 1400px) and (min-width: 1000px) {
+  .blink{
+	text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-in-out;
+	-webkit-animation-direction: alternate;
+  margin-left: 89%;
+  position: absolute;
+  
+}
+}
+
+@media only screen and (max-width: 1000px) {
+  .blink{
+	text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-in-out;
+	-webkit-animation-direction: alternate;
+  margin-left: 0px;
+  position: relative;
+}
+
+}
+    </style>
+    <style>
       body {
         margin: 0;
         font-family: Arial, Helvetica, sans-serif;
@@ -146,6 +195,7 @@
       <a href="events.html">Previous Events</a>
       <a href="gallery.html">Gallery</a>
       <a href="contactus.html" class="active">Contact</a>
+      <a href="registration.html" class="blink" style="color:red;">Register</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>

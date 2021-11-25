@@ -30,6 +30,55 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <style>
+      @media only screen and (min-width: 1000px) {
+        .blink {
+          float: right;
+        }
+      }
+      @-webkit-keyframes blinker {
+  from {opacity: 1.0;}
+  to {opacity: 0.0;}
+}
+.blink{
+	text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-in-out;
+	-webkit-animation-direction: alternate;
+  margin-left: 88%;
+  margin-top: 0%;
+  position: absolute;
+}
+@media  screen and (max-width: 1400px) and (min-width: 1000px) {
+  .blink{
+	text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-in-out;
+	-webkit-animation-direction: alternate;
+  margin-left: 89%;
+  position: absolute;
+  
+}
+}
+
+@media only screen and (max-width: 1000px) {
+  .blink{
+	text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-in-out;
+	-webkit-animation-direction: alternate;
+  margin-left: 0px;
+  position: relative;
+}
+
+}
+    </style>
 
 
     <style>
@@ -213,6 +262,7 @@
       <a href="events.html">Previous Events</a>
       <a href="gallery.html" class="active">Gallery</a>
       <a href="contactus.html">Contact</a>
+      <a href="registration.html" class="blink" style="color:red;">Register</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>
